@@ -6,7 +6,7 @@ This project shows the most efficient way to iterate through the list
 
 There is an overview of [the Benchmark library](https://benchmarkdotnet.org/articles/overview.html).
 
-**Note**: This library is availible only for the console app for now. The build should be run in Release mode. Use script `task.json` to define Release build in VS Code:
+**Note**: This library is availible only for the console app for now. The build should be run in Release mode. Use script `task.json` to define Release build in VS Code (look at the committed file in `.vscode` folder):
 ```
     {
         "taskName": "build Release",
@@ -54,4 +54,5 @@ There are 7 different methods to iterate through the list in the Benchmarks clas
     //     representations of collections.
 ```
 That would mean we should choose that one only in situations when there is no need to modify the collection and keep it the way it is.
+
 ![Screenshot of a results after the third run](Img/third_run.jpg)
